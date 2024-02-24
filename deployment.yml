@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: fadocker123/tetrisv2:latest
+        image: fadocker123/amazon:latest
         ports:
         - containerPort: 3000   # Use port 3000
 
