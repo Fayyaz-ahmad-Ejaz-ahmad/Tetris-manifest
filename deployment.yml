@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: tetris
+        app: reddit
     spec:
       containers:
       - name: tetris
