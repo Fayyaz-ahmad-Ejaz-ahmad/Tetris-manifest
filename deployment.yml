@@ -11,11 +11,11 @@ spec:
   template:
     metadata:
       labels:
-        app: reddit
+        app: tetris
     spec:
       containers:
       - name: tetris
-        image: fadocker123/amazon:latest
+        image: fadocker123/reddit:latest
         ports:
         - containerPort: 3000   # Use port 3000
 
