@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: fadocker123/hotstar:latest
+        image: fadocker123/2048:latest
         ports:
         - containerPort: 3000   # Use port 3000
 
